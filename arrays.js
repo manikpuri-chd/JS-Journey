@@ -17,3 +17,14 @@ let cities = ["chandigarh","Ludhiana","Chattisgarh","Bathinda","Delhi","Bombay",
 for(let city of cities){
     console.log(city);
 }
+
+let marks=[85,97,44,37,76,60];
+
+let sum = 0;
+
+for(let val of marks){
+    sum = sum + val;
+}
+
+let avg = sum/6
+console.log(avg);
