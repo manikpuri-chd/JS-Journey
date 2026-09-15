@@ -36,13 +36,13 @@
 }
 
  const playGame = (userChoice)=>{
-    console.log(`user choice = ${userChoice}`);
+   
     const compChoice = genCompChoice();
-    console.log(`computer choice = ${compChoice}`);
-
+   
     if(userChoice===compChoice){
         drawGame();
     }
+    
     else{
         let userWin = true;
 
